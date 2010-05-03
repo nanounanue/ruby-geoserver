@@ -1,6 +1,6 @@
 = ruby-geoserver
 
-Description goes here.
+A Ruby client facade library for interacting {GeoServer}[http://geoserver.org] .
 
 == Note on Patches/Pull Requests
  
@@ -14,4 +14,4 @@ Description goes here.
 
 == Copyright
 
-Copyright (c) 2010 Wayne. See LICENSE for details.
+Copyright (c) 2010 Wayne Graham. See LICENSE for details.
