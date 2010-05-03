@@ -5,11 +5,11 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "ruby-geoserver"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{A Ruby client facade library for interacting with GeoServer}
+    gem.description = %Q{A Ruby client facade library for interacting with GeoServer providing convenience methods for interacting the the GeoServer REST API.}
     gem.email = "wayne.graham@gmail.com"
     gem.homepage = "http://github.com/waynegraham/ruby-geoserver"
-    gem.authors = ["Wayne"]
+    gem.authors = ["Wayne Graham"]
     gem.add_development_dependency "rspec", ">= 1.2.9"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
