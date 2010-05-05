@@ -9,17 +9,14 @@ module Geoserver
   
   VERSION = self.version
   
+  def self.connect(connection)
+     @connection = connection
+   end
+     
+     CONNECTION = @connection
+  
   autoload :WMS, 'ruby-geoserver/wms'
-  autoload :Connection, 'ruby-geoserver/connection'
   
-  module Connectable
-    
-    def connect opts={}
-      Client.new Connection::NetHttp.new(opts)
-    end
-    
-  end
   
-  extend Connectable
   
 end
